@@ -1,0 +1,15 @@
+[project]
+name = "supportops-openenv"
+version = "0.1.0"
+description = "OpenEnv environment for customer support operations"
+authors = [{ name = "Balamurugan" }]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "requests"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
