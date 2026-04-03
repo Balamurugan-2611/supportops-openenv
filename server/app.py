@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from env.environment import SupportOpsEnv
 from env.models import Action
+import uvicorn
 
 app = FastAPI()
 env = SupportOpsEnv()
@@ -24,3 +25,11 @@ def step(action: dict):
         "done": result.done,
         "info": result.info
     }
+
+# ✅ REQUIRED FOR VALIDATOR
+def main():
+    uvicorn.run("server.app:app", host="0.0.0.0", port=7860)
+
+# ✅ REQUIRED ENTRY POINT
+if __name__ == "__main__":
+    main()
