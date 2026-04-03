@@ -77,4 +77,4 @@ Customer support is a critical real-world task involving:
 - decision making
 - communication quality
 
-This environment enables training and evaluation of AI agents in realistic support workflows.
+This environment enables training and evaluation of AI agents in realistic support workflows.# supportops-openenv
