@@ -1,0 +1,3 @@
+name: supportops-pro
+version: 2.0
+entry_point: env.environment:SupportOpsEnv
